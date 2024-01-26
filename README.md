@@ -17,6 +17,9 @@ Instructions:-
 - Change the filename and Y-axis label as follows:
 
 
+
+
+
 Graph 1: Air Temperature
 data = pd.read_csv('data.csv', skiprows=9, names=['Month', 'Air Temperature'])
 
@@ -25,6 +28,9 @@ plt.plot(data['Air Temperature'], label='Air Temperature', color='red')
 plt.ylabel('Temperature(°C)')
 
 plt.title('Air Temperature Data', fontsize=20)
+
+
+
 
 
 Graph 2:
@@ -38,6 +44,9 @@ plt.plot(data['mm per Day'], label='mm per Day', color='red')
 plt.ylabel('mm per Day')
 
 plt.title('Monthly Precipitation Data', fontsize=20)
+
+
+
 
 
 Graph 3:

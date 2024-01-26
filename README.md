@@ -48,7 +48,6 @@ plt.title('Monthly Precipitation Data', fontsize=20)
 
 
 
-
 Graph 3:
 
 Surface Soil Moisture

@@ -3,7 +3,7 @@ This code provides a versatile solution for plotting time-series data with diffe
 Instructions :
 
 1. Clone the Repository:
-[git clone https://github.com/your/repo.git
+[
 cd repo ]
 
 

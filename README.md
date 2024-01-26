@@ -23,8 +23,11 @@ cd repo ]
 
 Graph 1: Air Temperature
 data = pd.read_csv('data.csv', skiprows=9, names=['Month', 'Air Temperature'])
+
 plt.plot(data['Air Temperature'], label='Air Temperature', color='red')
+
 plt.ylabel('Temperature(°C)')
+
 plt.title('Air Temperature Data', fontsize=20)
 
 

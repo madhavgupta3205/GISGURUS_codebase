@@ -3,7 +3,7 @@ This code provides a versatile solution for plotting time-series data with diffe
 Instructions :
 
 1. Clone the Repository:
-[
+[https://github.com/madhavgupta3205/GISGURUS_codebase/blob/main/CODE.py
 cd repo ]
 
 

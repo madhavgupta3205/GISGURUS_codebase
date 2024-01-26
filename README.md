@@ -14,7 +14,7 @@ cd repo ]
 
 3. Run the Code:
 - Execute the code in a Python environment.
-- Ensure that you have the required dependencies installed.
+- Ensure that you have the required libraries installed.
 
 4. Generate Graphs:
 - You can generate three different graphs by making slight modifications to the code.
@@ -30,6 +30,7 @@ plt.ylabel('Temperature(°C)')
 ...
 plt.title('Air Temperature Data', fontsize=20)
 
+
 Graph 2: Monthly Precipitation
 data = pd.read_csv('data.csv', skiprows=9, names=['Month', 'mm per Day'])
 ...
@@ -38,6 +39,8 @@ plt.plot(data['mm per Day'], label='mm per Day', color='red')
 plt.ylabel('mm per Day')
 ...
 plt.title('Monthly Precipitation Data', fontsize=20)
+
+
 Graph 3: Surface Soil Moisture
 data = pd.read_csv('data.csv', skiprows=9, names=['Month', 'kg per metre square'])
 ...
